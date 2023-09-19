@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import axios from "axios";
 import { AuthContextProvider } from "./Context/AuthContext";
 
-axios.defaults.baseURL = "https://netflix-server-aw3n.vercel.app/api";
+axios.defaults.baseURL = "https://netflix-server-aw3n.vercel.app/";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
